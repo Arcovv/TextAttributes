@@ -716,7 +716,7 @@ open class TextAttributes {
     // MARK: - Obliqueness
     
     /// The obliqueness attribute.
-    open var obliqueness: CGFloat {
+    public var obliqueness: CGFloat {
         get {
             return dictionary[NSObliquenessAttributeName] as? CGFloat ?? 0
         }
